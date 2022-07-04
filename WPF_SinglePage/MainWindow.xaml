@@ -1,0 +1,68 @@
+﻿<Window x:Class="WPF_SinglePage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_SinglePage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.RowSpan="3">
+            <Button Content="Ich bin ein toller Button"
+                    Margin="10"
+                    Background="LightBlue"
+                    Height="50"/>
+            <Button Content="Button 2: die Rache der Input-Elemente"
+                    Height="50"
+                    Margin="10"
+                    Background="LightGreen"/>
+        </StackPanel>
+
+        <DockPanel Grid.Column="1"
+                   Grid.Row="0">
+            <StackPanel Orientation="Horizontal"
+                        DockPanel.Dock="Top">
+                <Button Content="Meep" Margin="10,5"/>
+                <Button Content="Meep" Margin="10,5"/>
+                <Button Content="Ich heiße Marvin." Margin="10,5" />
+            </StackPanel>
+            <Button Content="Ich docke mal hier unten, wenn's okay ist..."
+                    DockPanel.Dock="Bottom"
+                    Height="50" />
+        </DockPanel>
+        <Button Grid.Row="0"
+                Grid.Column="2"
+                Content="Ich bin ein auch ein Button"/>
+
+        <Canvas Grid.Column="1" Grid.Row="2">
+            <Rectangle Fill="Red"
+                       Height="70"
+                       Width="70"
+                       Canvas.Top="15"
+                       Canvas.Left="20"
+                       Stroke="Black"
+                       StrokeThickness="5"/>
+            <Rectangle Fill="Yellow"
+                       Height="70"
+                       Width="70"
+                       Canvas.Top="15"
+                       Canvas.Left="100"
+                       Stroke="Black"
+                       StrokeThickness="5"/>
+
+        </Canvas>
+    </Grid>
+</Window>

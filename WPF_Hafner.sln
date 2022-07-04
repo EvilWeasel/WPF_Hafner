@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_SinglePage", "WPF_SinglePage\WPF_SinglePage.csproj", "{A6A5351E-3944-419D-B7F3-FC48B75FCEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RechenTaschen", "RechenTaschen\RechenTaschen.csproj", "{0E53FC9E-0055-4CDB-8DD7-49ED682E1879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A5351E-3944-419D-B7F3-FC48B75FCEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A5351E-3944-419D-B7F3-FC48B75FCEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A5351E-3944-419D-B7F3-FC48B75FCEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A5351E-3944-419D-B7F3-FC48B75FCEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E53FC9E-0055-4CDB-8DD7-49ED682E1879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E53FC9E-0055-4CDB-8DD7-49ED682E1879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E53FC9E-0055-4CDB-8DD7-49ED682E1879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E53FC9E-0055-4CDB-8DD7-49ED682E1879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8EB03F3-8D69-4F22-A337-32D0B6DD1796}
+	EndGlobalSection
+EndGlobal
