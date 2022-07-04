@@ -102,16 +102,17 @@
                      VerticalAlignment="Center"
                      FontSize="18"
                      Width="150"/>
-            <TextBox Grid.Row="3"
-                     Grid.ColumnSpan="2"
-                     Name="txb_result"
-                     IsReadOnly="True"
-                     FontSize="22"
-                     Text="Result"
-                     HorizontalAlignment="Center"
-                     VerticalAlignment="Center"
-                     MinWidth="200"
-                     TextAlignment="Center"/>
+            <WrapPanel Grid.Row="3"
+                       Grid.ColumnSpan="2"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+                <TextBox Name="txb_result"
+                         IsReadOnly="True"
+                         FontSize="22"
+                         Text="Result"
+                         MinWidth="100"
+                         TextAlignment="Center"/>
+            </WrapPanel>
         </Grid>
 
         <Canvas Grid.Column="1"

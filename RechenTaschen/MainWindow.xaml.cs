@@ -73,6 +73,7 @@ namespace RechenTaschen
                     if (num2 == 0)
                     {
                         MessageBox.Show("Warning: Don't divide by zero!!!");
+                        txb_result.Text = "Check yourself, mate...";
                         break;
                     }
                     txb_result.Text = (num1 / num2).ToString();
